@@ -1,0 +1,15 @@
+{
+  "version": "1",
+  "name": "spectral",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ],
+    "scripts": {
+      "moduleWhitelist": ["child_process"],
+      "filesystemAccess": {
+        "allow": true
+      }
+    }
+}
